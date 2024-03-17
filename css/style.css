@@ -9,21 +9,23 @@
   padding: 20px 20px;
   transition: all 0.5s ease;
   margin: 10px;
-  border-radius: 20px;
-  height: 90vh;
+  border-radius: 20px;  
+  height: 80vh;
   display: flex;
   flex-direction: column;
   box-shadow: 0px 6px 15px 3px rgba(74, 99, 231, 0.1);
 }
 
 .header-userinfo {
+  text-align: center;
   color: #fff;
+  margin-top: 2.5rem;
 }
 
 .header-title{
   font-size: 20px;
   font-weight: 700;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 10px;
   font-family: 'Poppins', sans-serif;
 }
@@ -37,6 +39,8 @@
   color: white;
   line-height: 3;
   margin-top: 40px;
+  margin-left: 25px;
+
 }
 
 .main-nav-link.nav-cta:link,
@@ -68,7 +72,8 @@
 */
 
 .main-container {
-  width: calc(100% - 225px);
+  /* width: calc(100% - 225px); */
+  width: auto;
   margin-left: 300px;
 }
 
@@ -76,21 +81,34 @@
 ###### Into Section Start ######
 */
 .intro-section {
-  background-color: #4A63E7;
   margin: 20px;
   width: 95%;
-  height: 90vh;
+  height: 80vh;
   border-radius: 20px;
   color: #fff;
   padding: 40px;
   box-shadow: 0px 6px 15px 3px rgba(74, 99, 231, 0.1);
-
+  background-image: url("../assets/florian-olivo-4hbJ-eymZ1o-unsplash\ \(1\).jpg");
+  background-size: cover;
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
 }
 
+.intro-section-overlay{
+  background-color: #4A63E7;
+  left: 0;
+  top: 0;
+  opacity: 0.9;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border-radius: 20px;
+}
+
 .intro-section-content{
+  z-index: 1;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -211,20 +229,20 @@
 }
 
 .languages-card{
-    padding: 1rem;
-  background-color: #4A63E7;
-  color: #fff;
+    padding: 0.8rem;
+    background-color: #4A63E7;
+    color: #fff;
     /* width: 100px; */
     border-radius: 30px;
     display: inline-flex;
     margin: 0 5px;
 }
 
-.languages-card:hover {
+/* .languages-card:hover {
   border: 1px solid #4A63E7;
   background-color: #fff;
   color: #333;
-}
+} */
 
 .languages-card  img {
   width: 1.5rem
