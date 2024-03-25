@@ -60,6 +60,7 @@
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
+    <!-- Page Header -->
     <header class="header-container">
       <div class="header-userinfo">
         <img
@@ -74,7 +75,7 @@
         <ul class="nav-item-container">
           <li class="nav-item-list">
             <ion-icon name="home-outline"></ion-icon>
-            <a href="#" class="main-nav-link nav-cta"> Home </a>
+            <a href="#home-card" class="main-nav-link nav-cta">Home</a>
           </li>
           <li class="nav-item-list">
             <ion-icon name="person-outline"></ion-icon>
@@ -93,8 +94,11 @@
         </ul>
       </nav>
     </header>
+
+    <!-- End Of Page Header -->
+
     <main class="main-container">
-      <section class="intro-section">
+      <section id="home-card" class="intro-section">
         <div class="intro-section-content">
           <h1 class="intro-title">I'm Aravindan <span class="dot"></span></h1>
           <p class="intro-subtitle">Full Stack Developer</p>
@@ -118,14 +122,16 @@
         </div>
         <div class="intro-section-overlay"></div>
       </section>
+
       <section id="about-card" class="section-card">
         <h3 class="section-title">About me</h3>
       </section>
+
       <section id="skill-card" class="section-card">
         <h3 class="section-title">My skills</h3>
         <div class="section-skill-lists">
           <h4>Languages</h4>
-          <div style="margin: 2rem">
+          <div class="lang-card-container">
             <div class="languages-card">
               <img src="./assets/node.svg" alt="react" />
               <p class="languages-card-item">NodeJS</p>
@@ -136,7 +142,7 @@
             </div>
           </div>
           <h4>Frameworks</h4>
-          <div style="margin: 2rem">
+          <div class="lang-card-container">
             <div class="languages-card">
               <img src="./assets/react.webp" alt="react" />
               <p class="languages-card-item">React</p>
@@ -155,7 +161,7 @@
             </div>
           </div>
           <h4>Cloud</h4>
-          <div style="margin: 2rem">
+          <div class="lang-card-container">
             <div class="languages-card">
               <img
                 src="./assets/aws.svg"
@@ -171,9 +177,35 @@
           </div>
         </div>
       </section>
+
       <section id="experience-card" class="section-card">
         <h3 class="section-title">Experience</h3>
+        <!-- <div class="container">
+          <ul>
+            <li>
+              <h3 class="heading">FrontEnd Developer</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
+                excepturi accusamus minus totam
+              </p>
+              <a href="#">Read More ></a>
+              <span class="date">January 2021</span>
+              <span class="circle"></span>
+            </li>
+            <li>
+              <h3 class="heading">BackEnd Developer</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
+                excepturi accusamus minus totam
+              </p>
+              <a href="#">Read More ></a>
+              <span class="date">February 2021</span>
+              <span class="circle"></span>
+            </li>
+          </ul>
+        </div> -->
       </section>
+
       <section class="section-card-bottom">
         <a class="back-to-top-button" href="#"
           ><ion-icon

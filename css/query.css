@@ -11,10 +11,36 @@
 ***************/
 
 @media (max-width: 34em) {
+    .intro-section{
+        width: auto;
+    }
+    .contact-button{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 2rem;
+    }
+    .section-card{
+        width: auto;
+    }
     .header-container{
         display: none;
     }
     .main-container{
         margin-left: 0px;
+    }
+    .intro-title {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    .intro-subtitle, .intro-description{
+        font-size: 1rem;
+
+    }
+    .section-skill-lists{
+        padding: 1rem 0rem;
+    }
+    .lang-card-container{
+        margin: 2rem 0rem;
     }
 }

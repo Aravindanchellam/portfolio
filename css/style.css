@@ -1,8 +1,16 @@
+
+/* 
+color:  
+  #161B40
+  #161B40
+*/
+
+
 /* 
 ###### Header Section ######
 */
 .header-container {
-  background: #4A63E7;
+  background: #161B40;
   position: fixed;
   top: 10px;
   width: 300px;
@@ -47,11 +55,15 @@
 .main-nav-link.nav-cta:visited {
   text-decoration: none;
   color: #fff;
-  
 }
 
 .nav-item-list:hover {
   transform: translateX(10px);
+}
+
+.nav-item-list:hover > .main-nav-link.nav-cta:link, 
+.nav-item-list:hover > ion-icon {
+  color: rgb(253, 112, 20);
 }
 
 .nav-item-container ion-icon{
@@ -97,10 +109,10 @@
 }
 
 .intro-section-overlay{
-  background-color: #4A63E7;
+  background-color: #161B40;
   left: 0;
   top: 0;
-  opacity: 0.9;
+  opacity: 0.75;
   height: 100%;
   position: absolute;
   width: 100%;
@@ -228,18 +240,22 @@
   padding: 1.5rem;
 }
 
+.lang-card-container{
+  margin: 2rem;
+}
+
 .languages-card{
-    padding: 0.8rem;
-    background-color: #4A63E7;
+    padding: 0.5rem;
+    background-color: #161B40;
     color: #fff;
     /* width: 100px; */
     border-radius: 30px;
     display: inline-flex;
-    margin: 0 5px;
+    margin: 3px 3px;
 }
 
 /* .languages-card:hover {
-  border: 1px solid #4A63E7;
+  border: 1px solid #161B40;
   background-color: #fff;
   color: #333;
 } */
@@ -250,3 +266,111 @@
 .languages-card-item{
   margin: 0px 6px;
 }
+
+
+/* 
+###### Experience Start ######
+*/
+.container {
+	width: 70%;
+	height: auto;
+	margin: auto 0;
+	position: relative;
+}
+.container ul {
+	list-style: none;
+}
+/* .container ul::after {
+	content: " ";
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	background-image: linear-gradient(to bottom, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
+} */
+.container ul li {
+	width: 50%;
+	height: auto;
+	padding: 15px 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.218);
+	position: relative;
+	margin-bottom: 30px;
+}
+/* .container ul li:nth-child(4) {
+	margin-bottom: 0;
+}
+.container ul li .circle {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #e100ff7a;
+	top: 0;
+	display: grid;
+	place-items: center;
+}
+.circle::after{
+	content: ' ';
+	width: 12px;
+	height: 12px;
+	background-color: #7f00ff;
+	border-radius: 50%;
+}
+ul li:nth-child(odd) .circle {
+	transform: translate(50%, -50%);
+	right: -30px;
+}
+ul li:nth-child(even) .circle {
+	transform: translate(-50%, -50%);
+	left: -30px;
+}
+ul li .date {
+	position: absolute;
+	width: 130px;
+	height: 33px;
+	background-image: linear-gradient(to right,#7f00ff,#e100ff);
+	border-radius: 15px;
+	top: -45px;
+	display: grid;
+	place-items: center;
+	color: #fff;
+	font-size: 13px;
+	box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.318);
+}
+.container ul li:nth-child(odd) {
+	float: left;
+	clear: right;
+	text-align: right;
+	transform: translateX(-30px);
+}
+ul li:nth-child(odd) .date {
+	right: 20px;
+}
+.container ul li:nth-child(even) {
+	float: right;
+	clear: left;
+	transform: translateX(30px);
+}
+ul li .heading {
+	font-size: 17px;
+	color: rgb(91, 14, 216);
+}
+ul li p {
+	font-size: 13px;
+	color: #666;
+	line-height: 18px;
+	margin: 6px 0 4px 0;
+}
+ul li a {
+	font-size: 13px;
+	text-decoration: none;
+	color: rgb(18, 54, 214);
+	transition: all 0.3s ease;
+} */
+/* 
+###### Experience End ######
+*/
