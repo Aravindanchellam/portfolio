@@ -191,6 +191,7 @@ color:
   color: #fff;
   display: inline-block;
   margin-top: 10px;
+  text-decoration: none;
 }
 
 .contact-button:hover {
