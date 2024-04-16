@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aravindan</title>
+    <title>aravindan chellam | fullstack developer</title>
+    <meta name="keywords" content="react, react native, fullstack developer" />
     <link href="./css/general.css" rel="stylesheet" type="text/css" />
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
     <link href="./css/query.css" rel="stylesheet" type="text/css" />
@@ -63,11 +64,14 @@
     <!-- Page Header -->
     <header class="header-container">
       <div class="header-userinfo">
-        <img
-          src="./assets/male_avatar.svg"
-          style="width: 100px"
-          alt="userIcon"
-        />
+        <div class="header-displayPicture-container">
+          <img
+            class="header-displayPicture"
+            src="./assets/dp.jpg"
+            alt="userIcon"
+          />
+        </div>
+
         <h3 class="header-title">Aravindan Chellam</h3>
         <p class="header-subtitle">Full Stack Developer</p>
       </div>
@@ -75,12 +79,12 @@
         <ul class="nav-item-container">
           <li class="nav-item-list">
             <ion-icon name="home-outline"></ion-icon>
-            <a href="#home-card" class="main-nav-link nav-cta">Home</a>
+            <a href="#" class="main-nav-link nav-cta">Home</a>
           </li>
-          <li class="nav-item-list">
+          <!-- <li class="nav-item-list">
             <ion-icon name="person-outline"></ion-icon>
             <a href="#about-card" class="main-nav-link nav-cta">About</a>
-          </li>
+          </li> -->
           <li class="nav-item-list">
             <ion-icon name="pencil-outline"></ion-icon>
             <a href="#skill-card" class="main-nav-link nav-cta">Skills</a>
@@ -92,6 +96,28 @@
             >
           </li>
         </ul>
+        <div class="header-social-icon">
+          <a
+            href="https://www.linkedin.com/in/aravindan-chellam-52786b32/"
+            target="_blank"
+            ><ion-icon
+              class="header-social-logos"
+              name="logo-linkedin"
+            ></ion-icon
+          ></a>
+          <a href="https://www.facebook.com/aravindan.chellam" target="_blank"
+            ><ion-icon
+              class="header-social-logos"
+              name="logo-facebook"
+            ></ion-icon
+          ></a>
+          <a href="https://www.instagram.com/aravindanchellam/" target="_blank"
+            ><ion-icon
+              class="header-social-logos"
+              name="logo-instagram"
+            ></ion-icon
+          ></a>
+        </div>
       </nav>
     </header>
 
@@ -101,13 +127,24 @@
       <section id="home-card" class="intro-section">
         <div class="intro-section-content">
           <h1 class="intro-title">I'm Aravindan <span class="dot"></span></h1>
-          <p class="intro-subtitle">Full Stack Developer</p>
+          <!-- <p class="intro-subtitle">Full Stack Developer</p> -->
           <p class="intro-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-            dicta ducimus minus? Id, quaerat. Voluptates cum qui nostrum minus
-            illum!
+            <!-- Passion for crafting robust and user-centric web applications.
+            Proficient in all stages of the software development lifecycle, from
+            conceptualization and requirements analysis to deployment and
+            maintenance. -->
+            A Full Stack Developer with more than 6+ years of experience in the
+            industry, with a focus on agile methodology, web development,
+            project management, and quality assurance testing. adept at working
+            with clients, non-technical stakeholders, and development teams to
+            efficiently coordinate the execution of challenging web development
+            projects.
           </p>
-          <a class="contact-button">
+          <a
+            href="./assets/resume/aravindan_chellam.pdf"
+            class="contact-button"
+            download
+          >
             <div
               style="
                 display: flex;
@@ -123,9 +160,28 @@
         <div class="intro-section-overlay"></div>
       </section>
 
-      <section id="about-card" class="section-card">
+      <!-- <section id="about-card" class="section-card">
         <h3 class="section-title">About me</h3>
-      </section>
+        <p class="about-section-description">
+          A full-stack developer with more than 6+ years of experience in the
+          industry, with a focus on agile methodology, web development, project
+          management, and quality assurance testing. adept at working with
+          clients, non-technical stakeholders, and development teams to
+          efficiently coordinate the execution of challenging web development
+          projects.
+        </p>
+        <ul class="about-section-lists">
+          <li>
+            Having good experience in developing JS Frameworks Web and Mobile
+            applications.
+          </li>
+          <li>
+            A good hands-on experience in doing session management, code
+            structure. Having strong knowledge of creating hybrid mobile
+            applications using React Native.
+          </li>
+        </ul>
+      </section> -->
 
       <section id="skill-card" class="section-card">
         <h3 class="section-title">My skills</h3>
@@ -180,30 +236,54 @@
 
       <section id="experience-card" class="section-card">
         <h3 class="section-title">Experience</h3>
-        <!-- <div class="container">
-          <ul>
+        <div class="fullWidth eight columns">
+          <ul class="cbp_tmtimeline">
             <li>
-              <h3 class="heading">FrontEnd Developer</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                excepturi accusamus minus totam
-              </p>
-              <a href="#">Read More ></a>
-              <span class="date">January 2021</span>
-              <span class="circle"></span>
+              <div class="cbp_tmicon cbp_tmicon-phone">
+                <ion-icon
+                  name="briefcase"
+                  style="color: #fff; font-size: 1.1rem"
+                ></ion-icon>
+              </div>
+              <div class="cbp_tmlabel wow fadeInRight animated">
+                <h3>Software Developer</h3>
+                <div class="date">
+                  <ion-icon name="calendar-clear-outline"></ion-icon>May 2022 -
+                  Present
+                </div>
+                <div>
+                  <ion-icon
+                    name="business-outline"
+                    style="font-size: 1.1rem"
+                  ></ion-icon>
+                  Cognizant, Chennai
+                </div>
+              </div>
             </li>
             <li>
-              <h3 class="heading">BackEnd Developer</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                excepturi accusamus minus totam
-              </p>
-              <a href="#">Read More ></a>
-              <span class="date">February 2021</span>
-              <span class="circle"></span>
+              <div class="cbp_tmicon cbp_tmicon-phone">
+                <ion-icon
+                  name="briefcase"
+                  style="color: #fff; font-size: 1.1rem"
+                ></ion-icon>
+              </div>
+              <div class="cbp_tmlabel wow fadeInRight animated">
+                <h3>Full Stack Developer - Sr Cloud Specialist</h3>
+                <div class="date">
+                  <ion-icon name="calendar-clear-outline"></ion-icon> May 2018 -
+                  May 2022
+                </div>
+                <div>
+                  <ion-icon
+                    name="business-outline"
+                    style="font-size: 1.1rem"
+                  ></ion-icon>
+                  Paripoorna Softwares Pvt ltd, Chennai
+                </div>
+              </div>
             </li>
           </ul>
-        </div> -->
+        </div>
       </section>
 
       <section class="section-card-bottom">
