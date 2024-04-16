@@ -64,11 +64,14 @@
     <!-- Page Header -->
     <header class="header-container">
       <div class="header-userinfo">
-        <img
-          src="./assets/male_avatar.svg"
-          style="width: 100px"
-          alt="userIcon"
-        />
+        <div class="header-displayPicture-container">
+          <img
+            class="header-displayPicture"
+            src="./assets/dp.jpg"
+            alt="userIcon"
+          />
+        </div>
+
         <h3 class="header-title">Aravindan Chellam</h3>
         <p class="header-subtitle">Full Stack Developer</p>
       </div>
@@ -76,7 +79,7 @@
         <ul class="nav-item-container">
           <li class="nav-item-list">
             <ion-icon name="home-outline"></ion-icon>
-            <a href="#home-card" class="main-nav-link nav-cta">Home</a>
+            <a href="#" class="main-nav-link nav-cta">Home</a>
           </li>
           <!-- <li class="nav-item-list">
             <ion-icon name="person-outline"></ion-icon>
@@ -93,6 +96,28 @@
             >
           </li>
         </ul>
+        <div class="header-social-icon">
+          <a
+            href="https://www.linkedin.com/in/aravindan-chellam-52786b32/"
+            target="_blank"
+            ><ion-icon
+              class="header-social-logos"
+              name="logo-linkedin"
+            ></ion-icon
+          ></a>
+          <a href="https://www.facebook.com/aravindan.chellam" target="_blank"
+            ><ion-icon
+              class="header-social-logos"
+              name="logo-facebook"
+            ></ion-icon
+          ></a>
+          <a href="https://www.instagram.com/aravindanchellam/" target="_blank"
+            ><ion-icon
+              class="header-social-logos"
+              name="logo-instagram"
+            ></ion-icon
+          ></a>
+        </div>
       </nav>
     </header>
 
@@ -211,40 +236,46 @@
           <ul class="cbp_tmtimeline">
             <li>
               <div class="cbp_tmicon cbp_tmicon-phone">
-                <i class="faPra fa-briefcase"></i>
+                <ion-icon
+                  name="briefcase"
+                  style="color: #fff; font-size: 1.1rem"
+                ></ion-icon>
               </div>
               <div class="cbp_tmlabel wow fadeInRight animated">
-                <h3>Web developer</h3>
+                <h3>Software Developer</h3>
                 <div class="date">
-                  <i class="fa fa-calendar"></i>April 2014 - Current
+                  <ion-icon name="calendar-clear-outline"></ion-icon>May 2022 -
+                  Present
                 </div>
-                <h4>Davic Company, Bratislava</h4>
-                <!-- <p class="projectParagraph">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Fugit obcaecati ipsa quae, iusto laudantium qui, nisi eum modi
-                  perspiciatis quasi facilis corporis iure soluta enim incidunt
-                  itaque aspernatur sequi tempora.
-                </p> -->
+                <div>
+                  <ion-icon
+                    name="business-outline"
+                    style="font-size: 1.1rem"
+                  ></ion-icon>
+                  Cognizant, Chennai
+                </div>
               </div>
             </li>
             <li>
               <div class="cbp_tmicon cbp_tmicon-phone">
-                <i class="faPra fa-briefcase"></i>
+                <ion-icon
+                  name="briefcase"
+                  style="color: #fff; font-size: 1.1rem"
+                ></ion-icon>
               </div>
               <div class="cbp_tmlabel wow fadeInRight animated">
-                <h4>Full Stack Developer - Sr Cloud Specialist</h4>
+                <h3>Full Stack Developer - Sr Cloud Specialist</h3>
                 <div class="date">
-                  <i class="fa fa-calendar"></i>May 2018 - May 2022
+                  <ion-icon name="calendar-clear-outline"></ion-icon> May 2018 -
+                  May 2022
                 </div>
-                <h4>
-                  Paripoorna Software Solution Service Private Limited, Chennai
-                </h4>
-                <!-- <p class="projectParagraph">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Fugit obcaecati ipsa quae, iusto laudantium qui, nisi eum modi
-                  perspiciatis quasi facilis corporis iure soluta enim incidunt
-                  itaque aspernatur sequi tempora.
-                </p> -->
+                <div>
+                  <ion-icon
+                    name="business-outline"
+                    style="font-size: 1.1rem"
+                  ></ion-icon>
+                  Paripoorna Softwares Pvt ltd, Chennai
+                </div>
               </div>
             </li>
           </ul>
